@@ -1,0 +1,8 @@
+runtime: python312
+env: standard
+entrypoint: streamlit run ai_resume_analyzer_global.py --server.port=8080 --server.address=0.0.0.0
+
+env_variables:
+  STREAMLIT_SERVER_HEADLESS: "true"
+  STREAMLIT_SERVER_ENABLE_CORS: "false"
+  STREAMLIT_LOGGER_LEVEL: "info"
